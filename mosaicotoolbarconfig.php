@@ -56,6 +56,7 @@ function mosaicotoolbarconfig_civicrm_postProcess($formName, &$form) {
 function mosaicotoolbarconfig_civicrm_mosaicoConfig(&$config) {
   $config['tinymceConfigFull']['plugins'] = array(Civi::settings()->get('mosaico_plugins') ?: CIVICRM_MOSAICO_PLUGINS);
   $config['tinymceConfigFull']['toolbar1'] = Civi::settings()->get('mosaico_toolbar') ?: CIVICRM_MOSAICO_TOOLBAR;
+  $config['tinymceConfig']['browser_spellcheck'] = TRUE;
 }
 
 /**
