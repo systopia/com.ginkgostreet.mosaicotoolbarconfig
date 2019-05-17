@@ -14,13 +14,14 @@
     <url desc="Support">https://github.com/ginkgostreet/com.ginkgostreet.mosaicotoolbarconfig/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
-  <releaseDate>2019-02-22</releaseDate>
-  <version>1.0</version>
+  <releaseDate>2019-05-17</releaseDate>
+  <version>1.1+unwatch</version>
   <develStage>alpha</develStage>
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>This is a new, undeveloped module.
+    Check https://github.com/systopia/com.ginkgostreet.mosaicotoolbarconfig/tree/unwatch</comments>
   <civix>
     <namespace>CRM/mosaicotoolbarconfig</namespace>
   </civix>
